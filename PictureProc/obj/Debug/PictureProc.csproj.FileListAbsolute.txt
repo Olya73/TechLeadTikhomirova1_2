@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\PictureProc\bin\Debug\PictureProc.exe.config
+C:\Users\User\source\repos\PictureProc\bin\Debug\PictureProc.exe
+C:\Users\User\source\repos\PictureProc\bin\Debug\PictureProc.pdb
+C:\Users\User\source\repos\PictureProc\obj\Debug\PictureProc.csprojAssemblyReference.cache
+C:\Users\User\source\repos\PictureProc\obj\Debug\PictureProc.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\PictureProc\obj\Debug\PictureProc.exe
+C:\Users\User\source\repos\PictureProc\obj\Debug\PictureProc.pdb
