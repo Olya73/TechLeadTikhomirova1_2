@@ -1,4 +1,4 @@
-﻿using FindMaxElements.IO;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -20,6 +20,12 @@ namespace FindMaxElements
                 init[i] = rnd.Next(-10000000, 10000000);
 
             FindElements<int> fel = new FindElementsWithBinaryHeap<int>(init, amountMax);
+            Console.WriteLine($"Time spend to find with heap: " +
+                $"{TimeOfSearchingMaxElements(fel)}"
+                );
+            fel.PrintElems();
+
+            fel = new FindElementsWithSortedSet<int>(init, amountMax);
             Console.WriteLine($"Time spend to find with heap: " +
                 $"{TimeOfSearchingMaxElements(fel)}"
                 );

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using FindMaxElements.IO;
+
 
 namespace FindMaxElements
 {
@@ -9,7 +9,7 @@ namespace FindMaxElements
     {
         protected T[] maxElements;
         public abstract void SeekMaxElements();  
-        public void PrintElems()
+        public virtual void PrintElems()
         {
             foreach(var i in maxElements)
             {

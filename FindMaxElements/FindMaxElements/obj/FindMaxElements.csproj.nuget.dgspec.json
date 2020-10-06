@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj": {}
+    "C:\\Users\\User\\Desktop\\Новая папка (2)\\TechLeadTikhomirova1_2\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj": {
+    "C:\\Users\\User\\Desktop\\Новая папка (2)\\TechLeadTikhomirova1_2\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Новая папка (2)\\TechLeadTikhomirova1_2\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj",
         "projectName": "FindMaxElements",
-        "projectPath": "C:\\Users\\User\\Desktop\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Новая папка (2)\\TechLeadTikhomirova1_2\\FindMaxElements\\FindMaxElements\\FindMaxElements.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\FindMaxElements\\FindMaxElements\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Новая папка (2)\\TechLeadTikhomirova1_2\\FindMaxElements\\FindMaxElements\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

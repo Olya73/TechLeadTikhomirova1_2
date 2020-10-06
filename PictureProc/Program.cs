@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using ImageMagick;
 
 namespace PictureProc
 {
@@ -19,6 +20,16 @@ namespace PictureProc
                 string newName = $"{Path.GetFileNameWithoutExtension(path)}-res.jpg";
                 bmp.Save(newName);
                 Console.WriteLine($"{newName} сохранен в директории");
+            });
+            Run(args, path =>
+            {
+                using (var image = new MagickImage(path))
+                {
+                    image.Grayscale();
+                    string newName = $"{Path.GetFileNameWithoutExtension(path)}-res.jpg";
+                    image.Write(newName);
+                    Console.WriteLine($"{newName} сохранен в директории");
+                }
             });
 
         }
